@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "class work for automation in github",
   "main": "index.js",
+  "type": "module",
+
   "scripts": {    
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier --check .",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "",
